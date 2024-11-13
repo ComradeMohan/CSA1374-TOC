@@ -5,7 +5,7 @@ int main(){
     printf(" Enter a string :");
     scanf("%s" , c);
     int l=strlen(c);
-    if(c[0]=='a'&&c[l-1]=='a' )
+    if(c[0]==0&&c[l-1]==1 )
     printf("Accept");
     else
     printf("Don't Accept");
